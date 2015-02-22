@@ -164,29 +164,48 @@ nav {
 
 .navbar {
 	min-height:70px;
-	
 	}
 
-nav ul {display:inline-block; width:209px}
+nav ul {
+	display:inline-block; 
+	width:209px
+	}
 
-.navbar-brand {font-size:24px;height: 70px;; line-height:35px}
+.navbar-brand {
+	font-size:24px;
+	height: 70px; 
+	line-height:35px
+	}
 
 .navbar-inverse {
     background-color: #191d24;
     border-color: #191d24;
 }
 
-.nav-closing {display:inline-block;vertical-align:top}
+.nav-closing {
+	display:inline-block;
+	vertical-align:top
+	}
 
 .navbar-inverse .navbar-brand {
     color: #ffffff;
-	
-}
+	}
 
 .nav-expanded nav {
   right: 0;
 }
 
+.add {
+  position:fixed;
+  bottom:20px;
+  text-align:center;
+  }
+
+svg{
+	 width:100px;
+ 	 height:100px;
+  }
+  
 body.nav-expanded {
   margin-left: 0em;
   transition: right 0.4s ease-in-out 0s;
