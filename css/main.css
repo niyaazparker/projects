@@ -127,7 +127,7 @@ a.nav-expander-close {
   margin-right: 0;
   padding: 1em 1.6em 2em;
   position: absolute;
-  left: 0;
+  left: -20px;
   text-decoration: none;
   text-transform: uppercase;
   top: 0;
